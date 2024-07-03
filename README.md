@@ -1,3 +1,17 @@
+## 로컬 셋팅 방법
+
+### Next.js 및 Material-UI 설치
+
+Next.js의 경우 blindog-date-front 프로젝트에 이미 셋팅 되어있음
+npm install을 통해 의존성 설치만 진행하면 됌
+
+```bash
+npm install
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+## Next.js 설명
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
