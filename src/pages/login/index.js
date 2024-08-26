@@ -1,6 +1,6 @@
-// src/pages/LoginPage.js
+// src/pages/index.js
 import React from 'react';
-import KakaoLogin from '../components/KakaoLogin';
+import KakaoLogin from '../../components/KakaoLogin';
 import { Container, Typography } from '@mui/material';
 
 const LoginPage = () => {

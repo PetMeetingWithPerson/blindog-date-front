@@ -1,12 +1,11 @@
 // src/components/KakaoLogin.js
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const { REACT_APP_KAKAO_JS_KEY } = process.env;
 
 const KakaoLogin = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     const loadKakaoSDK = () => {
@@ -51,7 +50,7 @@ const KakaoLogin = () => {
             .then(response => {
               console.log('서버 응답', response.data);
               // 로그인 성공 후 메인 페이지로 리디렉션
-              navigate('/');
+              // navigate('/');
             })
             .catch(error => {
               console.error('서버 요청 실패', error);
